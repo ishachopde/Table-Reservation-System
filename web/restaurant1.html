@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="Images/styles.css" rel="stylesheet" type="text/css">
+        <!-- <link rel='stylesheet'  href='Images/locationregistration.css' type='text/css'> Include CSS File Here -->
+        <!-- <link rel="stylesheet" href="Images/style1.css"/>-->
+        <!-- Include JS File Here -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="Images/registration.js"></script>
+        <style>
+            body {margin:0;}
+
+            header ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: maroon;
+                position: fixed;
+                top: 0;
+                width: 100%;
+
+            }
+
+            header li {
+                float: left;
+            }
+
+            header li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 50px;
+                float: center;
+                font-style: initial;
+            }
+
+            header li1 a {
+                float: right;
+                margin-top: 8px;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 30px;
+            }
+            header li1 i{
+                float: right;
+                margin-top: 8px;
+                display: block;
+                color: white;
+                text-align: center;
+                margin-right: 8px;
+                text-decoration: none;
+                font-size: 30px;
+            }
+
+
+            header li2 {
+                float: center;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 30px;
+                margin-top: 8px;
+                font-family: "Times New Roman", Times, serif;
+            }
+
+
+
+            .image
+            {
+                margin: 5px;
+                float: center;
+                width: 500px;
+            }
+
+            img {
+                width: 1800px;
+                height: 600px;
+            }
+
+            .media, .mediaAside {
+                overflow: hidden;
+                zoom: 1;
+            }
+
+            footer p{ 
+                display: block;
+                background-color: maroon;
+                font-size: 30px;
+                text-align: center;
+                color: white;
+            }
+
+            li3 {
+                font-size: 10px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: cornsilk;
+            }
+
+
+
+            h2{
+                text-align: center;
+                font-size: 24px;
+            }
+            hr{
+                margin-bottom: 30px;
+            }
+            div.container{
+                width: 960px;
+                height: 610px;
+                margin:50px auto;
+                font-family: 'Droid Serif', serif;
+                position:relative;
+            }
+            div.main{
+                width: 320px;
+                float:left;
+                padding: 10px 55px 40px;
+                background-color: rgba(187, 255, 184, 0.65);
+                border: 15px solid white;
+                box-shadow: 0 0 10px;
+                border-radius: 2px;
+                font-size: 13px;
+            }
+            input[type=text],[type=password] {
+                width: 97.7%;
+                height: 34px;
+                padding-left: 5px;
+                margin-bottom: 20px;
+                margin-top: 8px;
+                box-shadow: 0 0 5px #00F5FF;
+                border: 2px solid #00F5FF;
+                color: #4f4f4f;
+                font-size: 16px;
+            }
+            label{
+                color: #464646;
+                text-shadow: 0 1px 0 #fff;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            #register {
+                font-size: 20px;
+                margin-top: 15px;
+                background: linear-gradient(#22abe9 5%, #36caf0 100%);
+                border: 1px solid #0F799E;
+                padding: 7px 35px;
+                color: white;
+                text-shadow: 0px 1px 0px #13506D;
+                font-weight: bold;
+                border-radius: 2px;
+                cursor: pointer;
+                width: 100%;
+            }
+            #register:hover{
+                background: linear-gradient(#36caf0 5%, #22abe9 100%);
+            }
+
+            div.photos {
+                color: black;
+                font-size: 50px;
+            }
+
+            photos{
+                float: right;
+                margin-top: 21px;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 30px;
+                margin-right: 21px;
+                margin-left: 21px; 
+            }
+
+            #photos li5 a {
+                float: right;
+                margin-top: 21px;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 30px;
+                margin-right: 21px;
+                margin-left: 21px; 
+            }
+
+            p{
+                color: brown;
+                text-align: left;
+                font-size: 5;
+            }
+
+
+
+
+            .dropbtn {
+                background-color: burlywood;
+                color: white;
+                padding: 16px;
+                font-size: 36px;
+                border: none;
+                cursor: pointer;
+                margin-top: 21px;
+            }
+
+            .dropbtn:hover, .dropbtn:focus {
+                background-color: #3e8e41;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 560px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown a:hover {background-color: #f1f1f1}
+
+            .show {display:block;}
+        </style>
+
+
+    </head>
+    <body>
+
+
+
+        <header>
+            <ul>
+
+                <li><a class="active"><img src="Images/logo.jpg" style="float:left;width:80px;height: 80px;">Hotel RAMADA
+                    </a>
+                </li>
+                <li1>
+                    <i class="glyphicon glyphicon-cloud"></i>
+                    <a href="Promos.html">Promos</a>
+
+                </li1>
+                <li2>Making life Easy !!! </li2>
+
+            </ul>
+        </header>
+
+
+
+
+
+        <div style="padding:20px;margin-top:30px;background-color:white;height:1500px;width:1800px;">
+            <div class="media">
+                <div class="mediaAside">
+                    <a href="#">
+                        <img src="Images/hotel.jpg" width="auto" height="350">
+                    </a>
+
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Contact Us</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <font size="6"> <a href="#home">We are Open Mon-Sun<br> 11 Am till Midnight<br> For Information and booking call 01234567<br><br></a>
+                        </font>
+                    </div>
+                </div>
+
+ <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <font size="6"> <a href="#home">We are Open Mon-Sun <br><br> 11 Am till Midnight<br> For Information and booking call: 01234567<br><br></a>
+                        </font>
+                    </div>
+                </div>
+
+
+                <p1>
+                    <br><br><br><br><br><br><br><br<br><br><br><br><br><br><br>
+                    <a href="LocationRegistration1.jsp">  <img src="Images/booknow.jpg" alt="Mountain View" style="width:304px;height:228px;"></a>
+                </p1>
+            </div>
+        </div>
+
+        <font size="6" style="text-align: center ;color: brown;width: 180px;height: 200px;">Your valuable Feedbacks: tablereservationsmadeeasy@gmail.com</font>
+        <footer> 
+            <p>Copyright @ SoftwareVeriValidation.com</p>
+
+        </footer>
+        <script>
+            /* When the user clicks on the button, 
+             toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

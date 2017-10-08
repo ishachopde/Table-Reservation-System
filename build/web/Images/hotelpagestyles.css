@@ -1,0 +1,179 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+  
+/** header **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	height: 85px;
+	border: 0;
+}
+
+#logo_img {
+	background: url('../images/hotelogo.png') no-repeat;
+	width: 70px;
+	height: 80px;
+	margin: 5px 1px 1px 0; 
+}
+
+.navbar-brand {
+padding-top: 5px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora' , serif;
+	color: #0D168C;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	font-style: initial;
+	position: relative;
+	line-height: .45;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	text-transform: initial;
+	font-size: 1.0em;
+	color: rgb(120,0,100);
+	font-synthesis: style;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+@media (min-width: 768px)
+{
+.navbar-toggle{
+position: relative;
+float: right;
+}
+
+#nav-list {
+	color: rgb(120,196,0);
+}
+
+#nav-list a {
+	text-align: center;
+	color: #0D168C;
+}
+
+#nav-list a:hover {
+	background-color: white;
+}
+
+#phone {
+	text-align: center;
+}
+
+#phone div {
+	font-size: .8em;
+	color: green;
+	text-align: right;
+}
+
+.navbar-header button.navbar-header, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+@media (min-width: 1200px){
+.jumbotron
+	{
+		background: url("../images/jumbotron_1200.jpg")  no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F ;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#logo_img {
+	background: url('../images/hotelogo.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 3px; 
+}
+.jumbotron
+	{
+		background: url("../images/jumbotron_992.jpg")  no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F ;
+	}
+}
+
+@media (max-width: 767px) 
+{
+		
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+.navbar-brand {
+padding-top: 5px;
+}
+
+.navbar-brand h1 {
+	padding-top: 10px;
+	font-size: 1.5em; 
+	
+}
+
+.navbar-brand p {
+	text-transform: uppercase;
+	font-size: .6em;
+	margin-top: 12px;
+}
+
+.navbar-brand p img {
+	height: 20px;
+}
+
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span {
+	font-size: 1em;
+}
+
+.jumbotron
+		{
+		background: url("../images/jumbotron_768.jpg")  no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F ;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+}
